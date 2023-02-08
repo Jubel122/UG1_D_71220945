@@ -1,0 +1,22 @@
+
+
+# def hitungKata(kata, kalimat):
+#    li = kalimat.split(' ')
+# kata = ()
+
+# for w in kata:
+#   kata[w[0]] = w[1]
+# try:
+#       print("%s : %d" % (kata, [kata]))
+# except KeyError as d :
+#       print("%s : 0" % kata)
+
+def main():
+   kalimat = (input("masukkan kata yang ini dicari"))
+
+   kata = input("Masukkan kata yang dicari: ")
+
+   hitungKata(kata, kalimat)
+
+if __name__ == "__main__":
+   main()
